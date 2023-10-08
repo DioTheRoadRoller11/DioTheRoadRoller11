@@ -7,6 +7,10 @@
     object-position: top;
 }
 
+:host(content-image) .align-semi-top {
+    object-position: 0 -100px;
+}
+
 :host(content-image) .align-bottom {
     object-position: bottom;
 }
