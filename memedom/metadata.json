@@ -1,18 +1,15 @@
 {
     "title": "MEMEDOM.net",
-    "subtitle": "fasjfasasfa",
+    "subtitle": "",
     "dueMonth": "October",
     "dueYear": "2023",
     "subject": "7 Web Programming 2",
     "authors": [
         "Pangan, J. K. P. & De Guzman, E. S."
     ],
-    "style": "./memedom-style.css",
     "section": "BSCS-304",
     "email": "edmardeguzman@cca.edu.ph",
     "references": [
-        {
-            "content":  "Bernad, M. A. (1998). The Trial of Rizal. Ateneo de Manila University. Philippine Studies v. 46, 1."
-        }
+        { }
     ]
 }
