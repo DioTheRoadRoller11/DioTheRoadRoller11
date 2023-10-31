@@ -163,19 +163,19 @@
 
 /*** FORMS ***/
 
-    input[type="text"], input[type="number"], select, button {
+    input[type="text"], input[type="number"], input[type="password"], select, button, textarea {
         border: none;
         padding: 0.25em 0.75em;
         font: inherit;
         font-style: normal;
     }
 
-    input[type="text"], input[type="number"] {
-        border-bottom: 2.25px solid;
+    input[type="text"], input[type="password"], input[type="number"] {
+        border-bottom: 2.25px solid var(--border);
     }
 
 
-    input[type="text"], input[type="number"] {
+    input[type="text"], input[type="password"], input[type="number"], textarea {
         width: 100%;
         display: block;
     }
@@ -186,12 +186,12 @@
 
     button {
         transition: background-color 0.25s ease;
-        background-color: var(--modal-bg);
+        background-color: var(--accent-color);
     }
 
     button:hover {
+        background-color: field;
         cursor: pointer;
-        background-color: var(--modal-hover);
     }
 
 /*** MEDIA QUERIES ***/

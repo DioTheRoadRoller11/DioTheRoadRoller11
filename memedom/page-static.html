@@ -1,0 +1,85 @@
+<!--
+
+    MEMEDOM -- Your Gateway to the World of Memes
+    
+    by
+        De Guzman, Edmar S.
+        Pangan, Jhon Kevin P.
+
+    Special Credits:
+
+        Libraries:
+            - jQuery: https://jquery.com/ 
+            - ThePotatoBoi's Static Web Components: https://github.com/ThePotatoBoi/thepotatoboi.github.io
+            - Live Server by Ritwick DeyName: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+        Assets:
+            - Memes from Reddit, r/wholesomememes, etc.
+            - knowyourmeme.com for some interesting meme trivias.
+            - PinImg.com for the Windows XP Background.
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="metadata" src="./metadata.json">
+    <title>MEMEDOM.net</title>
+    <link rel="stylesheet" href="../basePotatoStyle.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../Main.js" type="module"></script>
+
+    <style>
+
+        :root {
+            --accent-color: rgba(0, 100, 0, 0.70);
+            --anti-accent-color: #FEFEFE;
+            --background-img: url("https://i.pinimg.com/originals/63/f1/2e/63f12efde678b0d7b26870fab33c3fe3.jpg");
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <header-box meta="../Attributes/ccaBanner.json"></header-box>
+        <hr>
+        <img src="https://i.postimg.cc/ZqKN2bvj/daddy.png" alt="logo" height="75px">
+    </header>
+
+    <article-tabber>
+
+        <article title="home">
+
+            <h1>Bringing Smiles, One Meme at a Time.</h1>
+
+            <p>Introducting <i><b>Memedom</b></i>, Your Gateway to the World of Memes</p>
+
+            <image-grid viewable col="3">
+                <img src="https://cdn.discordapp.com/attachments/918531787536359424/1167417218393456640/344562281_4272814969610277_2979762255030931465_n.jpg?ex=654e0d02&is=653b9802&hm=bbcbdfc062467efd2a93f444ec4a149aab171cf5fbf4287fdca5512b713d28a7&" alt="a1.png" ref="from OnlyFrogs">
+                <img src="https://static.wikia.nocookie.net/b2754c24-37a4-48ae-b9c1-aa857c4019a7/scale-to-width/370" alt="a2.png" ref="from Battle Cats Wiki">
+                <img src="https://i.kym-cdn.com/entries/icons/mobile/000/009/086/Screenshot_2023-03-23_at_1.31.10_PM.jpg" alt="a3.png" ref="from knowyourmeme.com">
+            </image-grid>
+
+            <p>
+                In an age where humor, wit, and cultural references collide in the digital realm, memes have emerged as the universal language of the internet. They entertain, enlighten, and connect people across the globe, transcending boundaries and generations. Welcome to <b><i>Memedom</i></b>, your one-stop destination for all things meme-related. Dive into a world where laughter knows no limits, and wit reigns supreme as we explore the fascinating universe of internet humor and creativity.
+            </p>
+
+            <slidedown-box title="Did you know?">
+                <p>The term "<b><i>meme</i></b>" describes an idea, behavior, style, or usage that spreads from person to person within a culture, originally coined by Richard Dawkins.</p>
+            </slidedown-box>
+
+        </article>
+
+    </article-tabber>
+
+    <footer>
+        <footer-box></footer-box>
+    </footer>
+
+</body>
+</html>
